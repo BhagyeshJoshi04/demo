@@ -1,0 +1,65 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-left: 3rem;
+}
+li{
+    list-style: none;
+    margin-left: 4rem;
+    padding-top: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin-right: 2rem;
+}
+
+.skills img{
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%;
+}
+
+.welcomeimage>img{
+    height: 100vh;
+    width: 95vw;
+    margin-left:2.5vw;
+    margin-right:2.5vw;
+}
+
+.skills{
+    display: flex;
+}
+.skills>div{
+    text-align: center;
+    margin-top: 1rem;
+}
+.skills>div>p{
+    padding: 1rem;
+}
+.footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer>p{
+    font-size: 25px;
+}
+a:link, a:visited{
+    color: black;
+}
+a:hover{
+    color: lightpink;
+}
+a{
+    text-decoration: none;
+
+}
